@@ -20,6 +20,7 @@
 
            
                 <div class="content container-fluid">
+                    
 					<!-- Page Header -->
 					<div class="page-header">
 						<div class="row">
@@ -27,7 +28,7 @@
 								<div class="page-sub-header">
 									<h3 class="page-title">{{ $treino->exercicio->nome }}</h3>
 									<ul class="breadcrumb">
-										<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+										<li class="breadcrumb-item"><a href="#">Home</a></li>
 										<li class="breadcrumb-item active">Admin</li>
 									</ul>
 								</div>
@@ -44,7 +45,7 @@
                                 </div>
                                 <div class="blog-content">
                                     
-                                    <h3 class="blog-title"><a href="blog-details.html">Serie {{ $treino->serie }}</a></h3>
+                                    <h3 class="blog-title"><a href="#">Serie {{ $treino->serie }}</a></h3>
                                     <p>{{ $treino->obs }}</p>
                                 </div>
                                 <div class="row">
