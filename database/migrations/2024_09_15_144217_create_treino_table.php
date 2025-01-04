@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id(); // Cria uma coluna 'id' com auto-incremento
             $table->string('serie')->nullable();
             $table->string('tipo')->nullable();
-            $table->unsignedInteger('id_exercicio')->nullable();
+            $table->unsignedBigInteger('id_exercicio')->nullable();
             $table->unsignedBigInteger('id_user')->nullable();
             $table->integer('concluido')->nullable();
             $table->string('obs')->nullable();
