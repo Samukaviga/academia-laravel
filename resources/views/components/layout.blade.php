@@ -146,7 +146,6 @@
                                     <a href="/professor/exercicio"><i class="feather-grid"></i> <span>Adicionar Exercicio</span></a>
                                 </li>
 
-
                                 <li class="submenu">
                                     <a href="#"><i class="feather-grid"></i><span>Treino Pronto</span> <span class="menu-arrow"></span></a>
                                     <ul>
@@ -155,6 +154,12 @@
                                         <li><a href="/professor/agrupamentos/C">Agrupamentos C</a></li>
                                     </ul>
                                 </li>
+
+                                <li> 
+                                    <a href="/enviarEmail"><i class="feather-grid"></i> <span>Enviar Email</span></a>
+                                </li>
+
+                               
 
                             
                             @endif

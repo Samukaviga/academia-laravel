@@ -13,8 +13,8 @@ class EnviarEmailTeste extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $nome;
-    public $mensagem;
+    public $nome = "";
+    public $mensagem = "";
 
     public $imagem;
     public function __construct($nome, $mensagem, $imagem)

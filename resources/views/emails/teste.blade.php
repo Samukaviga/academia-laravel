@@ -2,9 +2,14 @@
 
 # Olá, {{ $nome }}
 
+@if($imagem)
+
 <div style="text-align: center;">
     <img src="{{ asset('storage/' . $imagem) }}" alt="Logo da Empresa" style="max-width: 100%; height: auto;" />
 </div>
+
+@endif
+
 
 <div style="margin-top: 1em; ">
 
