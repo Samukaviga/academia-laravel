@@ -102,6 +102,10 @@ Route::middleware(['teste'])->group(function () {
     
         Route::post('/professor/pesquisar', [ProfessorController::class, 'pesquisar'])->name('pesquisar');
 
+        Route::post('/enviarEmail', [ProfessorController::class, 'enviarEmailPost'])->name('enviarEmailPost');
+
+        Route::get('/enviarEmail', [ProfessorController::class, 'enviarEmail']);
+
 });
 
 

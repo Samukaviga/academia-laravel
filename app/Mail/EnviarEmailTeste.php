@@ -13,12 +13,15 @@ class EnviarEmailTeste extends Mailable
 {
     use Queueable, SerializesModels;
 
-    /**
-     * Create a new message instance.
-     */
-    public function __construct()
+    public $nome;
+    public $mensagem;
+
+    public $imagem;
+    public function __construct($nome, $mensagem, $imagem)
     {
-        //
+        $this->nome = $nome;
+        $this->mensagem = $mensagem;
+        $this->imagem = $imagem;
     }
 
     /**
@@ -27,7 +30,7 @@ class EnviarEmailTeste extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Enviar Email Teste',
+            subject: 'Academia FocusFit',
         );
     }
 
@@ -37,7 +40,7 @@ class EnviarEmailTeste extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'view.name',
+            markdown: 'emails.teste',
         );
     }
 

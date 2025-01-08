@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\EnviarEmailTeste;
 use App\Models\Agrupamento;
 use App\Models\Exercicio;
 use App\Models\Treino;
@@ -9,6 +10,7 @@ use App\Models\TreinoConcluido;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
+use Illuminate\Support\Facades\Mail;
 
 use function PHPUnit\Framework\isEmpty;
 
@@ -280,5 +282,40 @@ class ProfessorController extends Controller
 
         return view('professor.index')->with('alunos', $alunos)->with('mensagemSucesso', "Aluno excluido com sucesso")->with('paginate', $paginate = true);
     
+    }
+
+    public function enviarEmailPost(Request $request)
+    {   
+
+        $coverPath = $request->hasFile('imagem') ? $request->file('imagem')->store('assets/email', 'public') : $coverPath = null;
+        
+        /*
+        $imageData = file_get_contents($image->getRealPath());  // Lê os dados da imagem
+        $base64Image = base64_encode($imageData); 
+        */
+        
+        /*
+        $nome = 'João Silva';
+        $url = 'https://example.com';
+
+        Mail::to('samuelgomes2021@gmail.com')->send(new EnviarEmailTeste($nome, $request->mensagem, $coverPath));
+
+        return 'E-mail enviado com sucesso!'; 
+        */
+
+        
+        $nome = 'João Silva';
+        $url = 'https://example.com';
+
+       return new EnviarEmailTeste($nome, $request->mensagem, $coverPath);
+        
+    }
+
+    public function enviarEmail(){
+
+        $mensagemSucesso = session('mensagem.sucesso');
+
+        return view('emails.index')->with('mensagemSucesso', $mensagemSucesso);
+
     }
 }
