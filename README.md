@@ -33,9 +33,15 @@ Run the NPM
 
     npm run dev
 
-## System:
+## Professor:
+ - Pagina Home, onde é listado para o professor todos os alunos cadastrados na academia
 
 ![image](https://github.com/user-attachments/assets/704085a6-1a30-42cf-9600-cc14de038b21)
+
+- Clicando em Editar o professor consegue editar os dados do aluno e ter acesso aos treinos de cada categoria
+
+![image](https://github.com/user-attachments/assets/39d12d74-8253-4a2b-8078-44bbcba53b52)
+
 
 
 
