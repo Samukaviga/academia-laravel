@@ -50,9 +50,15 @@ Run the NPM
 
 ![image](https://github.com/user-attachments/assets/8bc947e8-d0f1-4e6b-a439-378363780dd0)
 
-- Abaixo ele pode selecionar o agrupamento desejado e o exerciocio vinculado ao mesmo
+- Abaixo ele pode selecionar o agrupamento desejado e o exercicio vinculado ao mesmo OU selecionar o *Treino Pronto* que vem com uma lista de exercicios já pré definidos 
   
 ![image](https://github.com/user-attachments/assets/696d3fb5-7a58-40c2-94d4-7baa45805506)
+
+- Ao clicar em um exercicio é possivel ver um gif, e suas observações. Sendo possivel editar esses dados também
+
+![image](https://github.com/user-attachments/assets/7fed0fd4-9625-4e43-a6b2-a429e7365ef2)
+
+
 
 
   
