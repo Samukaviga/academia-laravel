@@ -29,7 +29,7 @@ Run the Artisan Serve
 
     php artisan serve
 
-Run de NPM 
+Run the NPM 
 
     npm run dev
 
