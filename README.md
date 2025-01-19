@@ -50,6 +50,11 @@ Run the NPM
 
 ![image](https://github.com/user-attachments/assets/8bc947e8-d0f1-4e6b-a439-378363780dd0)
 
+- Abaixo ele pode selecionar o agrupamento desejado e o exerciocio vinculado ao mesmo
+  
+![image](https://github.com/user-attachments/assets/696d3fb5-7a58-40c2-94d4-7baa45805506)
+
+
   
 
 
