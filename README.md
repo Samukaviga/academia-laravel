@@ -54,14 +54,14 @@ Run the NPM
   
 ![image](https://github.com/user-attachments/assets/696d3fb5-7a58-40c2-94d4-7baa45805506)
 
-- Ao clicar em um exercicio é possivel ver um gif, e suas observações. Sendo possivel editar esses dados também
+- Ao clicar em um exercício, é possível visualizar um GIF e suas respectivas observações, além de ter a opção de editar essas informações.
 
 ![image](https://github.com/user-attachments/assets/7fed0fd4-9625-4e43-a6b2-a429e7365ef2)
 
-
-
-
+- Selecionando na barra de navegação *Adicionar Exercicio*, é implementar um novo exercicion que nao esteja na lista, selecionando o agrupamento, preenchendo o nome e adicionando um gif
   
+![Captura de tela 2025-01-19 121939](https://github.com/user-attachments/assets/13c6b5c9-ce6e-474a-86fd-e41903c63bf4)
+
 
 
 
