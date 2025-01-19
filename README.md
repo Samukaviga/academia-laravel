@@ -33,4 +33,9 @@ Run the NPM
 
     npm run dev
 
+## System:
+
+![image](https://github.com/user-attachments/assets/704085a6-1a30-42cf-9600-cc14de038b21)
+
+
 
