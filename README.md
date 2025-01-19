@@ -65,10 +65,15 @@ Run the NPM
 
 ## ALuno
 
-- Na tela inicial do aluno ele consegue visualizar cada treino e os detalhes dos seus dados pessoais, sendo possivel editar também
+- Na tela inicial do aluno ele consegue visualizar cada treino e os detalhes dos seus dados pessoais, sendo possivel editar também. E logo abaixo ele consegue ver os seus treinos concluidos
 
 ![image](https://github.com/user-attachments/assets/f0bd10be-9a92-4caf-8a6c-52d10908b99e)
 ![image](https://github.com/user-attachments/assets/a9c5c5de-2e47-4f01-9927-8fbe0c99b888)
+
+- Ao clicar por exemplo no *Treino A* ele consegue fazer o Check a cada exercicio concluido o no fim apertar em *CONCLUIR* para finalizar o treino.
+  
+![image](https://github.com/user-attachments/assets/0c62fa14-190b-4989-86f7-ced7f3a90c68)
+
 
 
 
