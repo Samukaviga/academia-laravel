@@ -70,9 +70,14 @@ Run the NPM
 ![image](https://github.com/user-attachments/assets/f0bd10be-9a92-4caf-8a6c-52d10908b99e)
 ![image](https://github.com/user-attachments/assets/a9c5c5de-2e47-4f01-9927-8fbe0c99b888)
 
-- Ao clicar por exemplo no *Treino A* ele consegue fazer o Check a cada exercicio concluido o no fim apertar em *CONCLUIR* para finalizar o treino.
+- Ao selecionar, por exemplo, o *Treino A*, o usuário pode marcar cada exercício como concluído e, ao final, clicar em *CONCLUIR* para finalizar o treino.
   
 ![image](https://github.com/user-attachments/assets/0c62fa14-190b-4989-86f7-ced7f3a90c68)
+
+- Caso tenha duvidas sobre o movimento do exercicio ele pode apertar no exercicio e visualizar o GIF e seus detalhes
+
+![image](https://github.com/user-attachments/assets/22d4006b-1ef7-4cea-9ff6-cae00a2c5483)
+
 
 
 
