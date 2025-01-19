@@ -68,6 +68,8 @@ Run the NPM
 - Na tela inicial do aluno ele consegue visualizar cada treino e os detalhes dos seus dados pessoais, sendo possivel editar também
 
 ![image](https://github.com/user-attachments/assets/f0bd10be-9a92-4caf-8a6c-52d10908b99e)
+![image](https://github.com/user-attachments/assets/a9c5c5de-2e47-4f01-9927-8fbe0c99b888)
+
 
 
 
