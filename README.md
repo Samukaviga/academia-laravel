@@ -58,9 +58,17 @@ Run the NPM
 
 ![image](https://github.com/user-attachments/assets/7fed0fd4-9625-4e43-a6b2-a429e7365ef2)
 
-- Selecionando na barra de navegação *Adicionar Exercicio*, é implementar um novo exercicion que nao esteja na lista, selecionando o agrupamento, preenchendo o nome e adicionando um gif
+- Selecionando na barra de navegação *Adicionar Exercicio*, é possivel implementar um novo exercicio que nao esteja na lista, selecionando o agrupamento, preenchendo o nome e adicionando um gif
   
 ![Captura de tela 2025-01-19 121939](https://github.com/user-attachments/assets/13c6b5c9-ce6e-474a-86fd-e41903c63bf4)
+
+
+## ALuno
+
+- Na tela inicial do aluno ele consegue visualizar cada treino e os detalhes dos seus dados pessoais, sendo possivel editar também
+
+![image](https://github.com/user-attachments/assets/f0bd10be-9a92-4caf-8a6c-52d10908b99e)
+
 
 
 
