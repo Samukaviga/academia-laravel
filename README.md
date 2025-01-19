@@ -46,6 +46,12 @@ Run the NPM
 
 ![image](https://github.com/user-attachments/assets/79b6c822-9db7-4ba2-9d1a-4d55705eda6a)
 
+- Selecionando por exemplo o *Treino A* o professor consegue visualizar e editar todos os exercicios que estão vinculados ao treino desse aluno
+
+![image](https://github.com/user-attachments/assets/8bc947e8-d0f1-4e6b-a439-378363780dd0)
+
+  
+
 
 
 
