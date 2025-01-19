@@ -9,11 +9,28 @@
 
 ## Installation
 
-Install the package through [Composer]. 
+Install the package Composer. 
 
 Run the Composer require command from the Terminal:
 
     composer install
 
+Install the package Node
+
+    npm install
+
+Install the migrations
+
+    php artisan migrate 
+
+## Run Project
+
+Run the Artisan Serve
+
+    php artisan serve
+
+Run de NPM 
+
+    npm run dev
 
 
