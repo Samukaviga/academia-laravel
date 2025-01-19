@@ -38,9 +38,13 @@ Run the NPM
 
 ![image](https://github.com/user-attachments/assets/704085a6-1a30-42cf-9600-cc14de038b21)
 
-- Clicando em Editar o professor consegue editar os dados do aluno e ter acesso aos treinos de cada categoria
+- Clicando em *EDITAR* o professor consegue alterar os dados do aluno e ter acesso aos treinos de cada categoria
 
 ![image](https://github.com/user-attachments/assets/39d12d74-8253-4a2b-8078-44bbcba53b52)
+
+- Logo abaixo é possiver visualizar os treinos concluidos, assim fica melhor o gerenciamento dos treinos para suas futuras alterações 
+
+![image](https://github.com/user-attachments/assets/79b6c822-9db7-4ba2-9d1a-4d55705eda6a)
 
 
 
