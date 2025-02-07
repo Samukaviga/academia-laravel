@@ -177,8 +177,6 @@ class ProfessorController extends Controller
     {
         //id_aluno
 
-
-
         //  dd(empty($agrupamentos['itens']));
 
         $agrupamentos = Agrupamento::where(['nivel' => $request->nivel])->where(['tipo' => $request->tipo])->get();
@@ -238,7 +236,6 @@ class ProfessorController extends Controller
         $treino = Treino::find($request->id_treino);
         $treino->fill($request->all());
         $treino->save();
-
 
         return to_route('gif', ['id_treino' => $treino->id])
             ->with('mensagem.sucesso', "Treino atualizado com sucesso");
@@ -317,5 +314,15 @@ class ProfessorController extends Controller
 
         return view('emails.index')->with('mensagemSucesso', $mensagemSucesso);
 
+    }
+
+    public function treinoAdicional(Request $request)
+    {
+       
+        $user = User::find($request->id);
+        $user->treino_adicional = true;
+        $user->save();
+
+        return back();
     }
 }

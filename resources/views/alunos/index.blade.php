@@ -93,6 +93,28 @@
 					</div>
 				</a>
 
+				@if (Auth::user()->treino_adicional == true)
+
+				<a href="{{ route('aluno.treino', ['tipo' => 'D', 'id' => Auth::user()->id] ) }}">
+					<div class="col-xl-12 col-sm-12 col-12 d-flex">
+						<div class="card bg-comman w-100">
+							<div class="card-body">
+								<div class="db-widgets d-flex justify-content-between align-items-center">
+									<div class="db-info">
+										<h6>Treino</h6>
+										<h3>D</h3>
+									</div>
+									<div class="db-icon">
+										<img src="assets/img/icons/treino.png" width="55px" height="55px" alt="Icon Treino">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				@endif
+
 			</div>
 			<!-- /Overview Section -->
 

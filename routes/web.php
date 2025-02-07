@@ -106,6 +106,8 @@ Route::middleware(['teste'])->group(function () {
 
         Route::get('/enviarEmail', [ProfessorController::class, 'enviarEmail']);
 
+        Route::delete('/professor/{id}/aluno/treinoAdicional', [ProfessorController::class, 'treinoAdicional'])->name('professor.aluno.treino-adicional');
+
 });
 
 

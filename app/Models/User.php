@@ -24,7 +24,9 @@ class User extends Authenticatable
         'data_nascimento',
         'saude_medicamento',
         'tipo_usuario',
+        'treino_adicional',
     ];
+
 
     protected $attributes = [
         'tipo_usuario' => 0, 
